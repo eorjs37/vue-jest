@@ -1,24 +1,17 @@
 # vue-jest
 
-## Project setup
-```
-npm install
-```
+## package 설치
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+> node 16.18.1  
+> npm 8.19.2
 
-### Compiles and minifies for production
+```bash
+npm install @vue/test-utils --save-dev
+npm install @babel/preset-env --save-dev
+npm install babel-core --save-dev
+npm install babel-jest
+npm install jest --save-dev
+npm install --save-dev jest-environment-jsdom
+npm install --save-dev jest-transform-stub
+npm i @vue/vue3-jest --save-dev
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
