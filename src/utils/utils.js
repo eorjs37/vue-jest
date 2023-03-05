@@ -4,4 +4,8 @@ const timeOutFunc = value => {
   }, 5000);
 };
 
-export { timeOutFunc };
+const calc = (a, b) => {
+  return a + b;
+};
+
+export { timeOutFunc, calc };
