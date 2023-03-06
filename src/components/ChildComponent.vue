@@ -1,6 +1,6 @@
 <template>
   <section>
-    <article class="child-desc" @click="click">자식 article</article>
+    <article id="childdesc" class="child-desc" @click="click">자식 article</article>
   </section>
 </template>
 
