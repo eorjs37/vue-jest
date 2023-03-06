@@ -1,4 +1,4 @@
-const timeOutFunc = value => {
+const timeOutFunc = () => {
   setTimeout(() => {
     return 1000;
   }, 5000);
