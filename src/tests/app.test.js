@@ -1,7 +1,7 @@
 import { mount } from '@vue/test-utils';
 import App from '@/App.vue';
 import router from '@/router/index';
-
+import AboutView from '../views/AboutView.vue';
 let wrapper = null;
 
 beforeEach(() => {
@@ -13,7 +13,9 @@ beforeEach(() => {
 });
 
 describe('app.vue test', () => {
-  test('should ', async () => {
-    expect(1).toBe(1);
+  test('about 화면 이동 ', async () => {
+    await router.push('/about');
+
+    expect(wrapper.findComponent(AboutView).exists()).toBe(true);
   });
 });
